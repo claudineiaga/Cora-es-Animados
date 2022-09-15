@@ -1,0 +1,312 @@
+body {
+    background: #333;
+  }
+.container {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    right: 0; left: 0; top: 0; bottom: 0;
+    margin: auto;
+}
+
+.coracao1 {
+    position: absolute;
+    width:50px;
+    height: 50px;
+    background: red;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -webkit-animation-name: cor1;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .coracao1:after {
+    position: absolute;
+    content: "";
+    background: red;
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    right: 0px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(0deg);
+    -webkit-animation-name: cor-ba;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .coracao1:before {
+    position: absolute;
+    content: "";
+    background: red;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    left: 25px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(0deg);
+    -webkit-animation-name: cor-ba;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .coracao2 {
+    position: absolute;
+    width:50px;
+    height: 50px;
+    background: red;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -webkit-animation-name: cor2;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .coracao2:after {
+    position: absolute;
+    content: "";
+    background: red;
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    right: 0px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(0deg);
+    -webkit-animation-name: cor-ba;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .coracao2:before {
+    position: absolute;
+    content: "";
+    background: red;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    left: 25px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(0deg);
+    -webkit-animation-name: cor-ba;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .coracao3 {
+    position: absolute;
+    width:50px;
+    height: 50px;
+    background: red;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -webkit-animation-name: cor3;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .coracao3:after {
+    position: absolute;
+    content: "";
+    background: red;
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    right: 0px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(0deg);
+    -webkit-animation-name: cor-ba;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .coracao3:before {
+    position: absolute;
+    content: "";
+    background: red;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    left: 25px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(0deg);
+    -webkit-animation-name: cor-ba;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  .coracao4 {
+    position: absolute;
+    width:50px;
+    height: 50px;
+    background: red;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -webkit-animation-name: cor4;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .coracao4:after {
+    position: absolute;
+    content: "";
+    background: red;
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    right: 0px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(0deg);
+    -webkit-animation-name: cor-ba;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .coracao4:before {
+    position: absolute;
+    content: "";
+    background: red;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    left: 25px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(0deg);
+    -webkit-animation-name: cor-ba;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes move1 {
+    0% {
+      top: 0px;
+      right: 0px;
+    }
+  
+    100% {
+      top: 300px;
+      right: 300px;
+    }
+  }
+  @-webkit-keyframes cor4 {
+    0% {
+      background: hsl(0,100%,50%);
+      bottom: 0px;
+      left: 0px;
+    }
+    
+    25% {
+      background: hsl(75,100%,50%);
+    }
+    
+    50% {
+      background: hsl(150,100%,50%);
+    }
+    
+    75% {
+      background: hsl(225,100%,50%);
+    }
+  
+    100% {
+      background: hsl(300,100%,50%);
+      bottom: 200px;
+      left: 200px;
+    }
+  }
+  @-webkit-keyframes cor3 {
+    0% {
+      background: hsl(0,100%,50%);
+      top: 0px;
+      left: 0px;
+    }
+    
+    25% {
+      background: hsl(75,100%,50%);
+    }
+    
+    50% {
+      background: hsl(150,100%,50%);
+    }
+    
+    75% {
+      background: hsl(225,100%,50%);
+    }
+  
+    100% {
+      background: hsl(300,100%,50%);
+      top: 200px;
+      left: 200px;
+    }
+  }
+  @-webkit-keyframes cor2 {
+    0% {
+      background: hsl(0,100%,50%);
+      bottom: 0px;
+      right: 0px;
+    }
+    
+    25% {
+      background: hsl(75,100%,50%);
+    }
+    
+    50% {
+      background: hsl(150,100%,50%);
+    }
+    
+    75% {
+      background: hsl(225,100%,50%);
+    }
+  
+    100% {
+      background: hsl(300,100%,50%);
+      bottom: 200px;
+      right: 200px;
+    }
+  }
+  @-webkit-keyframes cor1 {
+    0% {
+      background: hsl(0,100%,50%);
+      top: 0px;
+      right: 0px;
+    }
+    
+    25% {
+      background: hsl(75,100%,50%);
+    }
+    
+    50% {
+      background: hsl(150,100%,50%);
+    }
+    
+    75% {
+      background: hsl(225,100%,50%);
+    }
+  
+    100% {
+      background: hsl(300,100%,50%);
+      top: 200px;
+      right: 200px;
+    }
+  }
+  @-webkit-keyframes cor-ba {
+    0% {
+      background: hsl(0,100%,50%);
+    }
+    
+    25% {
+      background: hsl(75,100%,50%);
+    }
+    
+    50% {
+      background: hsl(150,100%,50%);
+    }
+    
+    75% {
+      background: hsl(225,100%,50%);
+    }
+  
+    100% {
+      background: hsl(300,100%,50%);
+    }
+  }
